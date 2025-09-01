@@ -6,6 +6,10 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * Second screen: reads the label sent from MainActivity and displays it.
+ * Also provides an explicit Back button (system back works too).
+ */
 class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

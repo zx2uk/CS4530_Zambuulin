@@ -6,6 +6,10 @@ import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * Main screen: shows 5 buttons.
+ * Tapping any button launches SecondActivity and passes the button text via [EXTRA_LABEL].
+ */
 class MainActivity : AppCompatActivity() {
 
     companion object {
